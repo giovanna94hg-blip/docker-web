@@ -16,4 +16,4 @@ jobs:
         run: docker build -t mi-web .
 
       - name: Run container
-        run: docker run mi-web
+        run: docker run -d mi-web
